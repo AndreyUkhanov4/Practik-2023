@@ -1,0 +1,18 @@
+.footer {
+  background-color: rgb(30, 95, 60);
+  min-height: 150px;
+  text-align: center;
+  font-size:150%;
+  color:rgba(192, 192, 192, 0.692);
+  
+}
+.footer_text
+{
+  font-size: 200%;
+  font-weight:600;
+}
+
+.logo {
+   padding: 5px;
+  
+}

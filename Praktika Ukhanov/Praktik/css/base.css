@@ -1,0 +1,62 @@
+/* (*-*) (0-0) (.-.) (._.) (о-о) ("-") (^-^) ($-$) ('_') (>_<) (s-s) (-_-) (n-n) (Q-Q) (g-g) (C_C) (c-c) (=-=) (=_=) (:-:) (O_O) (T-T) (T_T) (~_~) (`-`) (0.0) (-_o)
+(0-O) (v-v) (o-O) (I-I) (J-J) (X_X) (<->) \_|_/ (\__/) \_(o-o)_/ (8_8) (х-х) (ф-ф) (ж-ж) (б-б) (O.O) (-.-) (_._) (0~0) (o ~ o) (+_+) (9-9) (S_S) (#-#) (/__\) (&-&)
+(@-@) (?.?) ('.') ('0') (U-U) (=.=) (='X'=) (^-^) */
+body {
+  font-family: "Roboto", "sans-serif";
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  /* min-width: 560px; */
+}
+.logo {
+  width: 50px;
+  height: 47px;
+  border-radius: 10%;
+}
+.pad {
+  margin: 15px;
+}
+.cartochki {
+  display: flex;
+  justify-content: center;
+  min-height: 780px;
+}
+.cartochkii {
+  min-height: 520px;
+}
+.knopka {
+  margin-top: -3%;
+  height: 25px;
+  width: 50px;
+  margin-left: 49%;
+  background: rgba(5, 94, 60, 0.562);
+  border-radius: 4px;
+  border: 0px;
+  color: black;
+  transition: 1s;
+}
+.knopka:hover {
+  background-color: rgb(5, 94, 60);
+  transition: 0.5s;
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+.knopka:active {
+  transition: 0.5s;
+  transform: translateY(2px);
+  box-shadow: none;
+}
+.container {
+  max-width: 720px;
+  min-height: 600px;
+}
+.min {
+  min-height: 570px;
+}
+.card-img-top{
+  width: 250px;
+  height: 200px;
+  border-radius: 15%;
+  padding-top: 10px;
+  padding-left: 10px;
+}
